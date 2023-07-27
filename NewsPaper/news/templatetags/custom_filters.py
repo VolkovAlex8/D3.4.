@@ -1,6 +1,6 @@
 from django import template
 
-censor_words = ["Хрен", "блин", "ЧЕРТ"]
+censor_words = ["Блин", "ФАК", "епт"]
 
 register = template.Library()  # если мы не зарегестрируем наши фильтры,
 
